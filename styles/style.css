@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+main h1 {
+  margin-top: 2rem;
+  color: hsl(0deg, 0%, 59%);
+  font-weight: 300;
+  font-size: 3rem;
+}
+main h1 span {
+  color: hsl(209deg, 33%, 12%);
+  font-weight: 700;
+}
+main p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: hsl(209deg, 33%, 12%);
+}
+main .error {
+  font-size: 1rem;
+  margin-left: -15rem;
+  margin-top: 0.5rem;
+  color: hsl(354deg, 100%, 66%);
+}
+
+.logo {
+  margin-top: 2.5rem;
+}
+
+form {
+  margin-top: 2rem;
+}
+form input[type=email] {
+  width: 30%;
+  padding: 1rem;
+  border-radius: 30px;
+  border: 2px solid hsl(0deg, 0%, 59%);
+}
+form input[type=email].show {
+  border: 2px solid hsl(354deg, 100%, 66%);
+}
+form input[type=submit] {
+  width: 12%;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(223deg, 87%, 63%);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+form input[type=submit]:hover {
+  background-color: hsl(223deg, 100%, 88%);
+  box-shadow: 0px 0px 5px 5px hsl(223deg, 87%, 63%);
+}
+
+.dashboard {
+  margin-top: 5rem;
+}
+.dashboard img {
+  width: 45%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+footer .social-media i {
+  color: hsl(223deg, 87%, 63%);
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 1s;
+}
+footer .social-media i:hover {
+  color: white;
+  background-color: hsl(223deg, 87%, 63%);
+  border-radius: 30px;
+  transform: scale(1.5);
+  transform: translateY(-20px);
+}
+footer p {
+  margin: 1rem 0;
+  color: hsl(0deg, 0%, 59%);
+}
+
+@media screen and (max-width: 850px) {
+  main h1 {
+    font-size: 2rem;
+  }
+  main p {
+    font-size: 1rem;
+  }
+  form input[type=email] {
+    width: 80%;
+  }
+  form input[type=submit] {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .dashboard img {
+    width: 80%;
+  }
+  footer .social-media i {
+    padding: 0.8rem;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
